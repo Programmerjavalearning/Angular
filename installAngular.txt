@@ -3,3 +3,5 @@ Télécharger node.js : https://nodejs.org/fr/
 Lancez CMD et tappez npm i -g @angular/cli
 
 Vérifiez avec : ng -v
+
+HTML/CSS et JavaScript
