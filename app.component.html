@@ -2,3 +2,9 @@
 <h2>{{subTitle}}</h2>
 
 <img *ngIf="logoAffiche" src="https://i.pinimg.com/originals/98/b3/71/98b371cd43ead599d22bb40590df8287.jpg" alt="Image de bart" srcset="">
+
+<ul>
+    <li *ngFor="let unSelfie of lesSelfies">
+      {{unSelfie.bart.nom}}
+    </li>
+</ul>
