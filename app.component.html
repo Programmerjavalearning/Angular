@@ -1,14 +1,12 @@
+<app-menu-general></app-menu-general>
 <h1> {{title}}</h1>
 <h2>{{subTitle}}</h2>
 
-<img *ngIf="logoAffiche; else contraireIf " src="https://i.pinimg.com/originals/98/b3/71/98b371cd43ead599d22bb40590df8287.jpg" alt="Image de bart" srcset="">
 
-<ng-template #contraireIf > 
-  <b>pas d'image</b>
-</ng-template>
-
-<ul>
-    <li *ngFor="let unSelfie of lesSelfies">
-      {{unSelfie.bart.nom}}
-    </li>
-</ul>
+<main class="container"> 
+  <div class="row">
+      <div class="col-sm-9">
+        <app-selfie-list></app-selfie-list>
+      </div>
+  </div>
+</main>
